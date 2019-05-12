@@ -1,0 +1,70 @@
+@import url("fonts.css");
+
+/*html {
+	background: url('../img/banner.png') no-repeat center center fixed;
+	background-size: cover;
+	text-shadow: 2px 2px #222222;
+}
+*/
+body {
+	margin: 0px;
+	background: url('../img/banner.png') no-repeat center center fixed;
+	background-size: cover;
+	text-shadow: 2px 2px #222222;
+}
+.header {
+	font-family: "QGRegular";
+	font-size: 72px;
+	color: #22fe22;
+	text-align: center;
+	background: url('../img/MGwinglogopixel.png')/* no-repeat*/;
+	background-size: contain;
+	padding: 50px;
+
+}
+
+.main {
+
+	justify-content: center;
+	align-content: center;
+	background: url('../img/banner.png') no-repeat center center fixed;
+	background-size: cover;
+	text-shadow: 2px 2px #222222;
+	padding: 0px;
+}
+
+.main-view {
+	display: flex;
+	/*flex-wrap: wrap;*/
+}
+/*.pics {
+	display: flex;
+	vertical-align: center;
+	align-content: center;
+	justify-content: center;
+}*/
+.col-container {
+	display: block;
+	padding-right: 5px;
+}
+.pic-container {
+	padding-top: 2px;
+}
+
+.pic {
+	display: flex;
+	/*padding: 5px;*/
+	border-radius: 5px;
+	width: 443px;
+	justify-content: center;
+	transition-property: box-shadow, padding;
+}
+
+.pic:hover {
+	box-shadow: 0px 0px 30px #222;
+}
+/*.pic * {
+	border: none;
+	margin: none;
+	padding: none;
+}*/
